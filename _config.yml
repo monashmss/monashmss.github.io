@@ -1,0 +1,3 @@
+ name: Monash Music Students' Society
+ markdown: kramdown
++permalink: /blog/:year/:month/:day/:title
