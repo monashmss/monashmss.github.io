@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!--<meta name="author" content="Caterina Turnbull">
 <meta name="description" content="The official page for the Monash Music Students' Society. Providing academic resources for students and helping musicians at Monash University connect.">
-<meta name="keywords" content="Monash,University,Music,Student,Students,Students',Society,Club,musicians">
--->
+<meta name="keywords" content="Monash,University,Music,Student,Students,Students',Society,Club,musicians">-->
+<meta name="robots" content="noindex">
 <title>{{page.title}}</title>
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet" type="text/css" href="style.css" />
@@ -64,7 +64,7 @@
 
 <div id="signup" class="white-popup mfp-hide">
   <p>You don't have to be a student to join the MMSS, but in order to become a member and get connected with the Monash University music community, the easiest way to sign up is to <b>attend one of our events</b>. Membership is $7 or $2 if you're a MSA Card Holder. To be notified of future events, feel free to sign up to our mailing list below.</p>
-  
+
   <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -75,7 +75,7 @@
 <div id="mc_embed_signup">
 <form action="//facebook.us11.list-manage.com/subscribe/post?u=1d497063712df1f8ca7206041&amp;id=c3789e9515" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	
+
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -106,7 +106,7 @@
 
 <div class="container-fluid">
 	<div class="row">
-		
+
 
 
 
@@ -151,25 +151,25 @@ $('.open-popup-link').magnificPopup({
 });*/
 
 $(document).ready(function() {
-   
+
     // hide all but the first of our paragraphs
     $('.news-container div:not(:first)').hide();
-    
+
     $('.pagination').jqPagination({
         max_page    : $('.news-container div').length,
         paged        : function(page) {
-            
+
             // a new 'page' has been requested
-            
+
             // hide all paragraphs
             $('.news-container div').hide();
-            
+
             // but show the one we want
             $($('.news-container div')[page - 1]).show();
-            
+
         }
     });
-    
+
 });
 
 //$('.article').readmore({
@@ -184,7 +184,7 @@ $(document).ready(function() {
 	    showChars: 220
 	});
 });
-	
+
 </script>
 
 
