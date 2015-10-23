@@ -68,7 +68,7 @@ body {
 	font-weight: 900;
 }
 
-.in li {
+.in li, .in a {
   line-height: 35px;
 }
 
