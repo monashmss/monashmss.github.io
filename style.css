@@ -222,7 +222,11 @@ p {
 
 .socialmedia li {
   display: inline;
-  margin: 3px;
+  margin: 5px;
+  font-size: 1.5em;
+}
+
+.socialmedia a {
   color: #000;
 }
 
