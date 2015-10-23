@@ -69,7 +69,7 @@ body {
 }
 
 .in li, .in a {
-  line-height: 35px;
+  line-height: 35px !important;
 }
 
 /*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
