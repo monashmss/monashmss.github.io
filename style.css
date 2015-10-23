@@ -68,7 +68,8 @@ body {
 	font-weight: 900;
 }
 
-@media (max-width: 802px) and (min-width: 767px){
+/*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
+@media (max-width: 872px) and (min-width: 767px){
 	.navbar-right {
 		display: none;
 	}
