@@ -218,6 +218,7 @@ p {
 
 .socialmedia {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .socialmedia li {
