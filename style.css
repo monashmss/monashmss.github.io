@@ -69,25 +69,33 @@ body {
 }
 
 .in li, .in a {
-  line-height: 35px !important;
+
 }
 
 /*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
-@media (max-width: 872px) and (min-width: 767px){
+@media (max-width: 872px) and (min-width: 769px){
 	.navbar-right {
 		display: none;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
         vertical-align: top;
     }
 
+    .nav-bar-right {
+      display: block;
+    }
+
     .navbar .navbar-collapse {
         text-align: center;
+    }
+
+    .nav-bar li, .navbar a {
+      line-height: 35px !important;
     }
 }
 
