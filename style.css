@@ -72,22 +72,12 @@ body {
 
 }
 
-/*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
-@media (max-width: 872px) and (min-width: 770px){
-	.navbar-right {
-		display: none;
-	}
-}
 
-@media (max-width: 772px) {
+@media (max-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
         vertical-align: top;
-    }
-
-    .nav-bar-right {
-      display: block;
     }
 
     .navbar .navbar-collapse {
@@ -223,6 +213,21 @@ p {
 
 #footer {
 	margin-top: 40px;
+  text-align: center;
+}
+
+.socialmedia {
+  list-style-type: none;
+}
+
+.socialmedia li {
+  display: inline;
+  margin: 3px;
+  color: #000;
+}
+
+.socialmedia a:hover {
+  color: #2c8884;
 }
 
 footer p {
