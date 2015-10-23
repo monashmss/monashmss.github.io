@@ -68,6 +68,10 @@ body {
 	font-weight: 900;
 }
 
+.in li {
+  line-height: 35px;
+}
+
 /*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
 @media (max-width: 872px) and (min-width: 767px){
 	.navbar-right {
