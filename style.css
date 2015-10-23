@@ -79,7 +79,7 @@ body {
 	}
 }
 
-@media (max-width: 770px) {
+@media (max-width: 769px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
