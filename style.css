@@ -73,13 +73,13 @@ body {
 }
 
 /*OVERFLOW: MAX-WIDTH TO BE CHANGED WHEN ADDING NAVBAR CONTENT */
-@media (max-width: 872px) and (min-width: 769px){
+@media (max-width: 872px) and (min-width: 771px){
 	.navbar-right {
 		display: none;
 	}
 }
 
-@media (max-width: 769px) {
+@media (max-width: 772px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
