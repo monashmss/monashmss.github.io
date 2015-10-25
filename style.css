@@ -57,7 +57,7 @@ body {
   text-transform: uppercase;
   	line-height: 70px;
   	width: auto !important;
-  	overflow-x: hidden !important;
+  	overflow: hidden !important;
 }
 
 .navbar-nav a {
