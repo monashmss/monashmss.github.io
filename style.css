@@ -67,12 +67,6 @@ body {
 	font-weight: 900;
 }
 
-.navbar-collapse {
-  overflow: hidden !important;
-  height: 94px;
-}
-
-
 @media (max-width: 772px) {
     .navbar .navbar-nav {
         display: inline-block;
