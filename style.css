@@ -55,9 +55,7 @@ body {
 	font-family: 'Hind', sans-serif;
 	font-size: 1.25em;
   text-transform: uppercase;
-  	line-height: 70px;
-  	width: auto !important;
-  	overflow: hidden !important;
+  	line-height: 84px;
 }
 
 .navbar-nav a {
@@ -69,8 +67,9 @@ body {
 	font-weight: 900;
 }
 
-.in li, .in a {
-
+.navbar-collapse {
+  overflow: hidden !important;
+  height: 94px;
 }
 
 
