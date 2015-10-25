@@ -68,7 +68,7 @@ body {
 	font-weight: 900;
 }
 
-@media (max-width: 839px) {
+@media (max-width: 838px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: none;
