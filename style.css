@@ -95,24 +95,27 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center bottom;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .content {
 	margin: auto;
-	margin-top: 0;
-	padding: 5px;
+	margin: 0;
+	padding: 40px;
 	padding-top: 0;
 	width: 100%;
 	background-color: rgba(255,255,255,0.75);
 	overflow: auto;
+  text-align: center;
 }
 
 .content2 {
-  background-color: #b1e1e0;
+  background-color: #d9f4f3;
 }
 
 .content3 {
-  background-color: #b1e1b8;
+  background-color: #e2f3e4;
 }
 
 h1 {
@@ -139,7 +142,7 @@ h3 {
 
 p {
 	font-family: 'Lato', sans-serif;
-	font-size: 1em;
+	font-size: 1.15em;
 }
 
 .nav-tabs li a {
