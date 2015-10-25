@@ -40,12 +40,13 @@ body {
 
 .navbar-nav a:hover {
 	color: #54B4B1;
-  text-shadow: 2px 2px 5px #000;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .navbar-nav a:active {
 	color: #FFF;
 	text-decoration: none;
+  text-shadow: none;
 	position: relative;
 	bottom: -2px;
 	right: -2px;
