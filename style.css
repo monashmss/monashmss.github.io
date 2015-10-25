@@ -39,8 +39,8 @@ body {
 }
 
 .navbar-nav a:hover {
-	color: #EC2227;
-	text-decoration: none;
+	color: #A1DF20;
+	text-decoration: underline;
 }
 
 .navbar-nav a:active {
