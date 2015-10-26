@@ -92,8 +92,9 @@ body {
 	background-position: center bottom;
 }
 
-.container-fluid {
+.content-page {
   height: 700px;
+  overflow: scroll;
 }
 
 .content {
