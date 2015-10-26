@@ -125,7 +125,6 @@ h2 {
 	font-family: 'Lato', sans-serif;
 	font-size: 1.75em;
 	font-weight: 900;
-	color: #3D3D3D;
 	text-transform: uppercase;
 }
 
@@ -201,6 +200,10 @@ p {
 	width: auto;
 	background-color: #2c8884;
 	-webkit-appearance: none;
+}
+
+#contactForm {
+  margin-top: -8px;
 }
 
 .news-container div span {
