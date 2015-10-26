@@ -47,13 +47,13 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="#signup" class="open-popup-link"><b>Sign Up</b></a></li>
-        <li><a href="index.html">About Us</a></li>
-        <li><a href="events.html">Events</a></li>
-	<li><a href="news.html">News</a></li>
-  <li><a href="resources.html">Resources</a></li>
-	<li><a href="promote.html">Promote Your Band and Gigs</a></li>
-	<li><a href="sponsors.html">Sponsors</a></li>
-	<li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#events">Events</a></li>
+	<li><a href="#news">News</a></li>
+  <li><a href="#resources">Resources</a></li>
+	<li><a href="#promote">Promote Your Band and Gigs</a></li>
+	<li><a href="#sponsors">Sponsors</a></li>
+	<li><a href="#contact">Contact</a></li>
       </ul>
 
     </div>
@@ -444,11 +444,46 @@ $('.open-popup-link').magnificPopup({
 
 //CONTACT FORM VALIDATION
 $("#contactForm").validate();
+
+//PAGINATION
+$(document).ready(function() {
+
+    // hide all but the first of our paragraphs
+    $('.news-container div:not(:first)').hide();
+
+    $('.pagination').jqPagination({
+        max_page    : $('.news-container div').length,
+        paged        : function(page) {
+
+            // a new 'page' has been requested
+
+            // hide all paragraphs
+            $('.news-container div').hide();
+
+            // but show the one we want
+            $($('.news-container div')[page - 1]).show();
+
+        }
+    });
+
+});
+
+//$('.article').readmore({
+//collapsedHeight: 100,
+//  moreLink: '<a href="#">Read more</a>',
+//  lessLink: '<a href="#">Read less</a>'
+//});
+//READ LESS
+$(document).ready(function() {
+	$('.article').shorten({
+	    moreText: 'Read more',
+	    lessText: 'Read less',
+	    showChars: 220
+	});
+});
+
+
 </script>
-
-
-
-
 
 </body>
 </html>
