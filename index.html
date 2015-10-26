@@ -49,11 +49,11 @@
         <li><a href="#signup" class="open-popup-link"><b>Sign Up</b></a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#events">Events</a></li>
-	<li><a href="#news">News</a></li>
-  <li><a href="#resources">Resources</a></li>
-	<li><a href="#promote">Promote Your Band and Gigs</a></li>
-	<li><a href="#sponsors">Sponsors</a></li>
-	<li><a href="#contact">Contact</a></li>
+      	<li><a href="#news">News</a></li>
+        <li><a href="#resources">Resources</a></li>
+      	<li><a href="#promote">Promote Your Band and Gigs</a></li>
+      	<li><a href="#sponsors">Sponsors</a></li>
+      	<li><a href="#contact">Contact</a></li>
       </ul>
 
     </div>
@@ -162,7 +162,8 @@
 
 
 <!--######################-->
-<div class="container-fluid content-page" id="about">
+<div id="about" style="width: 0; height: 0;"></div>
+<div class="container-fluid content-page">
 	<div class="row" >
     <div class="col-xs-12 col-sm-7"></div>
     <div class="col-xs-12 col-sm-5 content">
@@ -191,7 +192,8 @@
 
 
 <!--######################-->
-<div class="container-fluid grey-background content-page" id="events">
+<div id="events" style="width: 0; height: 0;"></div>
+<div class="container-fluid grey-background content-page">
   <h1>Here are some things we've got going on....</h1>
   <div class="col-sm-3 col-xs-12"> <!-- required for floating -->
     <!-- Nav tabs -->
@@ -269,7 +271,8 @@
 
 
 <!--######################-->
-<div class="container-fluid content text-center content-page" id="news">
+<div id="news" style="width: 0; height: 0;"></div>
+<div class="container-fluid content text-center content-page">
 
   <h1>What's been happening...</h1>
 
@@ -313,7 +316,8 @@
 
 
 <!--######################-->
-<div class="container-fluid red-background content-page" id="resources">
+<div id="resources" style="width: 0; height: 0;"></div>
+<div class="container-fluid red-background content-page">
   <h1>Download our resources here...</h1>
   <div class="row">
     <div class="col-xs-12 col-sm-6">
@@ -329,7 +333,8 @@
 
 
 <!--######################-->
-<div class="container-fluid text-center content-page" id="promote">
+<div id="promote" style="width: 0; height: 0;"></div>
+<div class="container-fluid text-center content-page">
 
   <h1>Advertise with us...</h1>
   <p>If you're interested in advertising an upcoming concert, gig, or just generally advertising yourself as a musician, you can send us promotional material and we can give you exposure on our front page. Advertising is limited to MMSS members and costs $5 for continuous advertising for all your upcoming musical events.</p> <!--PLEASE CHECK AND REVISE -->
@@ -353,7 +358,8 @@
 
 
 <!--######################-->
-<div class="container-fluid grey-background content-page" id="sponsors">
+<div id="sponsors" style="width: 0; height: 0;"></div>
+<div class="container-fluid grey-background content-page">
 
   <h1>Thank you...</h1>
   <p>We could not be where we are today with the support of the following incredible people and organisations. If you're interested in supporting the Monash MSS, please feel free to <a href="contact.html">contact us</a>. We'd love to get in touch!</p>
@@ -374,7 +380,8 @@
 
 
 <!--######################-->
-<div class="container-fluid content-page" id="contact">
+<div id="contact" style="width: 0; height: 0;"></div>
+<div class="container-fluid content-page">
   <h1 >Talk to us...</h1>
   <div class="row">
     <div class="col-xs-12 col-sm-8" id="contactcontent">
@@ -483,7 +490,7 @@ $(document).ready(function() {
 });
 
 //SMOOTH SCROLL
-$('a[href*=#]:not([href=#])').click(function() {
+$('#myNavbar a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
