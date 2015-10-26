@@ -93,12 +93,9 @@ body {
 	background-position: center bottom;
 }
 
-.container-fluid {
-  padding: 40px;
-}
-
 .content-page {
   min-height: 550px;
+  padding: 80px;
 }
 
 .content {
