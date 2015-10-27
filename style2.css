@@ -22,6 +22,10 @@ body {
     to   { opacity: 1; }
 }
 
+#header-image {
+  width: 100%;
+}
+
 .navbar-inverse {
   vertical-align: middle;
   background-color: #a21e1e;
