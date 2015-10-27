@@ -531,8 +531,10 @@ $(document).ready(function(){
   });
 
 //CLOSE NAVBAR IN PHONE AFTER CLICK
-$('#myNavbar a[href*=#]:not([href=#],#signuplink)').click(function(){
-    $('.nav-collapse').collapse('hide');
+$(document).ready(function () {
+  $(".navbar-nav li a:not(#signuplink)").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
 });
 
 //CAROUSEL
