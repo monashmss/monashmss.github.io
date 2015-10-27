@@ -35,7 +35,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="94">
 
 <!--NAVBAR-->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse" id="sticky-navbar">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -503,7 +503,7 @@ $('#myNavbar a[href*=#]:not([href=#],#signuplink)').click(function() {
 
 //STICKY NAVBAR
 $(document).ready(function(){
-    $("#myNavbar").sticky({topSpacing:0});
+    $("#sticky-navbar").sticky({topSpacing:0});
   });
 
 </script>
