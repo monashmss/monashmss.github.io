@@ -532,7 +532,7 @@ $(document).ready(function(){
 
 //CLOSE NAVBAR IN PHONE AFTER CLICK
 $('#myNavbar a[href*=#]:not([href=#],#signuplink)').click(function(){
-    $("#myNavbar").attr("aria-expanded","false");
+    $('.nav-collapse').collapse('hide');
 });
 
 //CAROUSEL
