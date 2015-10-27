@@ -530,9 +530,9 @@ $(document).ready(function(){
     $("#sticky-navbar").sticky({topSpacing:0});
   });
 
-//CLOSE NAVBAR IN menu
-$("#myNavbar a[href*=#]:not([href=#],#signuplink)").click(function(){
-    attr("aria-expanded","false");
+//CLOSE NAVBAR IN PHONE AFTER CLICK
+$('#myNavbar a[href*=#]:not([href=#],#signuplink)').click(function(){
+    $("#myNavbar").attr("aria-expanded","false");
 });
 
 //CAROUSEL
