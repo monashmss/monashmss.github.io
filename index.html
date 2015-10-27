@@ -171,7 +171,7 @@
     <div>
       <h2>Promote yourself with us!</h2>
       <p>If you're interested in advertising an upcoming concert, gig, or just generally advertising yourself as a musician, you can send us promotional material and we can give you exposure on our front page. Advertising is limited to MMSS members and costs $5 for continuous advertising for all your upcoming musical events.</p>
-  		<p>Click on <a href="promote.html">Promote Your Band and Gigs</a> for more details.
+  		<p>Click on <a href="#promote">Promote Your Band and Gigs</a> for more details.
     </div>
   </div>
 
@@ -383,7 +383,7 @@
 <div class="container-fluid grey-background content-page" id="sponsors">
 
   <h1>Thank you...</h1>
-  <p>We could not be where we are today with the support of the following incredible people and organisations. If you're interested in supporting the Monash MSS, please feel free to <a href="contact.html">contact us</a>. We'd love to get in touch!</p>
+  <p>We could not be where we are today with the support of the following incredible people and organisations. If you're interested in supporting the Monash MSS, please feel free to <a href="#contact">contact us</a>. We'd love to get in touch!</p>
   <hr>
   <div style="text-align: center;"><a href="http://artsonline.monash.edu.au/music/" target="_blank"><h3>Sir Zelman Cowen School of Music</h3>
   <img src="http://artsonline.monash.edu.au/music/files/2015/03/50-logo-220-02.jpg"></a></div>
@@ -533,6 +533,7 @@ $(document).ready(function(){
 //CAROUSEL
 $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
+      center: true,
       loop:true,
       margin:0,
       responsiveClass:true,
@@ -542,13 +543,12 @@ $(document).ready(function(){
               nav:true
           },
           772:{
-              items:3,
+              items:1,
               nav:true
           },
           992:{
-              items:5,
-              nav:true,
-              loop:false
+              items:1,
+              nav:true
           }
       }
   })
