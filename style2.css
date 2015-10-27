@@ -72,7 +72,7 @@ body {
 }
 
 #sticky-navbar {
-  z-index: 999999;
+  z-index: 1041;
 }
 
 @media (max-width: 838px) {
