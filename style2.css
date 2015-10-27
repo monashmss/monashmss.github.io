@@ -114,13 +114,12 @@ body {
 }
 
 .grey-background {
-  background-color: #aaaaaa;
+  background-color: #b9b9b9;
   color: #FFF;
 }
 
 .red-background {
-  background-color: #a21e1e;
-  color: #fff;
+  background-color: #ffa08c;
 }
 
 h1 {
@@ -150,16 +149,6 @@ p {
 	font-size: 15px;
 }
 
-.red-background a {
-  color: #90B638;
-  text-decoration: none;
-}
-
-.red-background a:hover {
-  color: #2D4100;
-  text-decoration: underline;
-}
-
 #about p {
   font-size: 14px;
 }
@@ -170,11 +159,11 @@ p {
 
 .nav-tabs li a {
 	font-family: 'Lato', sans-serif;
-	color: #2c8884;
+	color: #b73333;
 }
 
 .nav-tabs li a:hover {
-  color: #EC2227;
+  color: #7c2323;
 }
 
 .white-popup {
