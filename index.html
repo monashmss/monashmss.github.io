@@ -530,6 +530,11 @@ $(document).ready(function(){
     $("#sticky-navbar").sticky({topSpacing:0});
   });
 
+//CLOSE NAVBAR IN menu
+$("#myNavbar a[href*=#]:not([href=#],#signuplink)").click(function(){
+    attr("aria-expanded","false");
+});
+
 //CAROUSEL
 // $(document).ready(function(){
 //   $('.owl-carousel').owlCarousel({
