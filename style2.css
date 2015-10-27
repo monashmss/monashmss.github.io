@@ -155,6 +155,10 @@ p {
   font-size: 1em;
 }
 
+#resources li {
+  font-family: 'Lato', sans-serif;
+}
+
 .nav-tabs li a {
 	font-family: 'Lato', sans-serif;
 	color: #2c8884;
