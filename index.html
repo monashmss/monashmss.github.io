@@ -46,7 +46,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="#signup" class="open-popup-link"><b>Sign Up</b></a></li>
+        <li><a href="#signup" class="open-popup-link" id="signuplink"><b>Sign Up</b></a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#events">Events</a></li>
       	<li><a href="#news">News</a></li>
@@ -483,7 +483,7 @@ $(document).ready(function() {
 });
 
 //SMOOTH SCROLL
-$('#myNavbar a[href*=#]:not([href=#])').click(function() {
+$('#myNavbar a[href*=#]:not([href=#],#signuplink)').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
@@ -491,7 +491,7 @@ $('#myNavbar a[href*=#]:not([href=#])').click(function() {
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
            if (target.length) {
              $('html,body').animate({
-                 scrollTop: target.offset().top
+                 scrollTop: target.offset().top - 94
             }, 1000);
             return false;
         }
