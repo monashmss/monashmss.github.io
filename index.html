@@ -376,7 +376,7 @@
   <br />Quality: 'Save for Web'
   <br />If you do not have the ability to 'Save for Web', please submit a high resolution file of any format (800px x 800px) and the file will be converted to low resolution.
   </p>
-  <p>By applying to advertise with us on our website, you are agreeing to our <a href="#termsandconditions" target="_blank">Terms and Conditions</a>.</p>
+  <p>By applying to advertise with us on our website, you are agreeing to our <a href="#termsandconditions" class="open-popup-link">Terms and Conditions</a>.</p>
 </div>
 
 
@@ -505,13 +505,14 @@
 <script>
 //COPYRIGHT DATE
 document.getElementById("copyright").innerHTML =
-"<p>Copyright &copy;  " + new Date().getFullYear() + " Monash Music Students' Society. All rights reserved. | <a href='#termsandconditions'>Terms &#38; Conditions</a><br />Hosted on Github Pages.</p>";
+"<p>Copyright &copy;  " + new Date().getFullYear() + " Monash Music Students' Society. All rights reserved. | <a href='#termsandconditions' class='open-popup-link'>Terms &#38; Conditions</a><br />Hosted on Github Pages.</p>";
 
 //SIGN UP POP-UP
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
 });
+
 
 //CONTACT FORM VALIDATION
 $("#contactForm").validate();
