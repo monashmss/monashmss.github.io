@@ -4648,18 +4648,18 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #54B4B1;
+  color: #E56868;
   background-color: transparent;
   text-shadow: 1px 1px 3px #000;
 }
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
-  color: #54B4B1;
+  color: #E56868;
   text-shadow: 1px 1px 3px #000;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #125b58;
+  color: #7E0505;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
