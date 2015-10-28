@@ -95,13 +95,6 @@ body {
     }
 }
 
-#about {
-	background-image: url("background-about.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center bottom;
-}
-
 .content-page {
   min-height: 550px;
   padding: 10%;
