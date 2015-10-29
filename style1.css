@@ -184,6 +184,12 @@ hr {
   line-height: 24px;
 }
 
+@media (max-width: 514px) {
+  #monashclubslogo {
+    width: 80%;
+  }
+}
+
 .white-popup {
   position: relative;
   background: #FFF;
