@@ -95,6 +95,13 @@ body {
     }
 }
 
+@media (max-height: 535px) {
+  #sticky-navbar {
+    max-height: 100vh;
+    overflow-y: scroll;
+  }
+}
+
 .content-page {
   min-height: 550px;
   padding: 10%;
