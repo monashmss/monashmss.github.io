@@ -160,6 +160,24 @@ hr {
   color: #7c2323;
 }
 
+.news-container {
+  height: 400px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 10px;
+}
+
+.pagination a {
+  height: 30px;
+  width: 30px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
 .white-popup {
   position: relative;
   background: #FFF;
