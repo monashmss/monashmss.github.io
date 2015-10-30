@@ -109,11 +109,6 @@ body {
   padding-bottom: 60px;
 }
 
-.content {
-	background-color: rgba(255,255,255,0.75);
-	overflow: scroll;
-}
-
 h1 {
 	font-family: 'Kalam', sans-serif;
 	font-size: 44px;
