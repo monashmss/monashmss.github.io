@@ -268,6 +268,7 @@ hr {
 
 .socialmedia a:hover {
   color: #A21E1E;
+  text-decoration: none;
 }
 
 footer p {
