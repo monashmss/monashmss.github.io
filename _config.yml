@@ -1,6 +1,0 @@
-name: Monash Music Students' Society
-
-url: "http://monashmss.github.io"
-
-markdown: kramdown
-+permalink: /blog/:year/:month/:day/:title
