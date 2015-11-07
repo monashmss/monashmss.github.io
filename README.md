@@ -1,32 +1,16 @@
 #Monash Music Students' Society
-##monashmss.github.io
-###2015/10/22
+##http://www.monashmss.com
+**2015/11/07**
 
-**index.html**
-Basic info about inauguration and aims. Committee correct as of 2015/10/22.
-
-**events.html**
-Template in html. Consider javascript for automatically moving events when the date passes, or putting in placeholder comment when no events in section.
-bootstrap.vertical-tabs
-jquery.shorten
-
-**news.html**
-Template in html. Not using Jekyll.
-jqpagination
-
-**promote.html**
-Static.
-
-**sponsors.html**
-Static.
-
-**contact.html**
-Static.
-formspree.io
-
-**signup**
-Static, but to be updated with membership changes.
-
-**default layout**
-Bootstrap carousel for promoting people.
-magnific-popup
+###A place for the musicians of Monash...  
+The Monash Music Students’ Society is a club established by students of the university’s music faculty, primarily aimed at enhancing cohesion amongst students, facilitating communication between staff and students, providing academic and study support, and holding social events both in and outside of the university. After a year of planning, MMSS was officially inaugurated in May 2015 and, in just a few short months, has over 150 members.  
+**Committee**  
+Genevieve Trinh (President)  
+Daniel Tan (Vice-President)  
+Emily Domingo (Secretary)  
+Arthur Athan (Treasurer)  
+Hayden Dun (Events Officer)  
+Jazmine Morris (Education Officer)  
+Tom Bunnett (Equity Officer)  
+Caterina Turnbull (Assistant Secretary)  
+Madeleine Stratmann (Assistant Treasurer)
