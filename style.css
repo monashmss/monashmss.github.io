@@ -160,6 +160,11 @@ hr {
   color: #7c2323;
 }
 
+.tab-content {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
 .news-container {
   height: 400px;
   overflow-y: scroll;
