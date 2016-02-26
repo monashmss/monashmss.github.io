@@ -160,10 +160,10 @@ hr {
   color: #7c2323;
 }
 
-.tab-pane {
+/*.tab-pane {
   height: 400px;
   overflow-y: scroll;
-}
+}*/
 
 .news-container {
   height: 400px;
