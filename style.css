@@ -153,6 +153,15 @@ hr {
   margin-right: 10%;
 }
 
+.button-link {
+  color: #FFF;
+  background-color: #a21e1e;
+  padding: 10px 5px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .important-news > * {
   background-color: #a21e1e;
   color: #FFF;
