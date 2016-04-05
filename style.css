@@ -162,6 +162,10 @@ hr {
   text-align: center;
 }
 
+a.button-link:hover {
+  color: #FFF;
+}
+
 .important-news > * {
   background-color: #a21e1e;
   color: #FFF;
