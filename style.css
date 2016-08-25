@@ -156,10 +156,16 @@ hr {
 .button-link {
   color: #FFF;
   background-color: #a21e1e;
-  padding: 10px;
-  border-radius: 15px;
-  text-transform: uppercase;
+  border: 0 none;
+  padding: 0 22px;
+  margin: 0 5px 10px 0;
+  border-radius: 4px;
   text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: auto;
+  text-transform: uppercase;
 }
 
 a.button-link:hover {
